@@ -1,0 +1,371 @@
+[
+  {
+    "name":"# Goblin",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 3 x Goblin",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":13,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":13,
+        "x":342,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 2 x Goblin, Goblincmdr",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":13,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":15,
+        "x":342,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Goblin, Goblinwiz",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":255,
+        "y":155
+      },
+      {
+        "enemyIdx":21,
+        "x":240,
+        "y":265
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 2 x Goblinninja, Goblinrider",
+    "units":[
+      {
+        "enemyIdx":16,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":16,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":17,
+        "x":342,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 2 x Goblinshaman, 2 x Goblinwat",
+    "units":[
+      {
+        "enemyIdx":18,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":18,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":20,
+        "x":342,
+        "y":155
+      },
+      {
+        "enemyIdx":20,
+        "x":327,
+        "y":265
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# snuf",
+    "units":[
+      {
+        "enemyIdx":171,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":false,
+    "escapeChance":0.98,
+    "events":[
+      {
+        "conditions":[
+          
+        ],
+        "cmds":[
+          {
+            "jsonClass":"ShakeScreen",
+            "xAmplitude":{
+              "jsonClass":"FloatParameter",
+              "constant":20.0,
+              "valueTypeId":0,
+              "localVariable":""
+            },
+            "yAmplitude":{
+              "jsonClass":"FloatParameter",
+              "constant":0.0,
+              "valueTypeId":0,
+              "localVariable":""
+            },
+            "frequency":{
+              "jsonClass":"FloatParameter",
+              "constant":4.0,
+              "valueTypeId":0,
+              "localVariable":""
+            },
+            "duration":{
+              "jsonClass":"FloatParameter",
+              "constant":4.0,
+              "valueTypeId":0,
+              "localVariable":""
+            }
+          },
+          {
+            "jsonClass":"PlaySound",
+            "spec":{
+              "sound":"sys/opengameart-37hitspunches/hit33.ogg",
+              "volume":1.0,
+              "pitch":1.0
+            }
+          }
+        ],
+        "maxFrequency":0
+      }
+    ]
+  },
+  {
+    "name":"# vilageOrc",
+    "units":[
+      {
+        "enemyIdx":172,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":false,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Theexecutor",
+    "units":[
+      {
+        "enemyIdx":83,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.64,
+    "events":[
+      {
+        "conditions":[
+          
+        ],
+        "cmds":[
+          {
+            "jsonClass":"StartBattle",
+            "encounterId":{
+              "jsonClass":"IntParameter",
+              "constant":8,
+              "valueTypeId":0,
+              "localVariable":"",
+              "globalVariable":""
+            }
+          }
+        ],
+        "maxFrequency":0
+      }
+    ]
+  },
+  {
+    "name":"# FinalBoss",
+    "units":[
+      {
+        "enemyIdx":173,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":false,
+    "escapeChance":0.67,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  }
+]

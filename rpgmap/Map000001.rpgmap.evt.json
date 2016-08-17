@@ -1,0 +1,100 @@
+{
+  "events":[
+    {
+      "id":5,
+      "name":"Event00005",
+      "x":13.5,
+      "y":8.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":19,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":6,
+      "name":"Event00006",
+      "x":20.5,
+      "y":11.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":11,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":12.5,
+      "y":25.5,
+      "states":[
+        
+      ],
+      "eventClassId":1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":7,
+      "name":"Event00007",
+      "x":14.5,
+      "y":15.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":6,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":17.5,
+      "y":20.5,
+      "states":[
+        
+      ],
+      "eventClassId":2,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Event00004",
+      "x":28.5,
+      "y":26.5,
+      "states":[
+        
+      ],
+      "eventClassId":7,
+      "params":[
+        
+      ]
+    }
+  ]
+}

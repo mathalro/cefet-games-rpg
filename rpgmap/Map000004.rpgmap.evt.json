@@ -1,0 +1,196 @@
+{
+  "events":[
+    {
+      "id":14,
+      "name":"Event00014",
+      "x":29.5,
+      "y":22.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":19,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":33.5,
+      "y":11.5,
+      "states":[
+        
+      ],
+      "eventClassId":9,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":6,
+      "name":"Event00006",
+      "x":29.5,
+      "y":11.5,
+      "states":[
+        
+      ],
+      "eventClassId":13,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":9,
+      "name":"Event00009",
+      "x":29.5,
+      "y":3.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":19,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":13,
+      "name":"Event00013",
+      "x":29.5,
+      "y":20.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":19,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":33.5,
+      "y":10.5,
+      "states":[
+        
+      ],
+      "eventClassId":9,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":12,
+      "name":"Event00012",
+      "x":0.5,
+      "y":18.5,
+      "states":[
+        
+      ],
+      "eventClassId":19,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":7,
+      "name":"Event00007",
+      "x":0.5,
+      "y":16.5,
+      "states":[
+        
+      ],
+      "eventClassId":15,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":33.5,
+      "y":12.5,
+      "states":[
+        
+      ],
+      "eventClassId":9,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":16,
+      "name":"Event00016",
+      "x":29.5,
+      "y":7.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":25,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":8,
+      "name":"Event00008",
+      "x":20.5,
+      "y":1.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":12,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":15,
+      "name":"Event00015",
+      "x":29.5,
+      "y":25.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":19,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    }
+  ]
+}
